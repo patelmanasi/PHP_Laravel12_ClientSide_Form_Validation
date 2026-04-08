@@ -75,7 +75,7 @@
                                 <td>{{ $user->email }}</td>
                                 <td>
                                     <form action="{{ route('users.delete', $user->id) }}" method="POST"
-                                        onsubmit="return confirmDelete()">
+                                     onsubmit="return confirmDelete()">
                                         @csrf
                                         @method('DELETE')
                                         <button class="btn btn-danger btn-sm w-100">Delete</button>

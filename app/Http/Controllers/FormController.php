@@ -33,7 +33,11 @@ class FormController extends Controller
 
         return back()->with('success', 'User created!');
     }
-
+    public function delete($id)
+    {
+        User::findOrFail($id)->delete();
+        return back()->with('success', 'User deleted');
+    }
     // ⭐ NEW FEATURE: USER LIST
     public function list(Request $request)
     {
@@ -49,9 +53,5 @@ class FormController extends Controller
         return view('usersList', compact('users'));
     }
 
-    public function delete($id)
-    {
-        User::findOrFail($id)->delete();
-        return back()->with('success', 'User deleted');
-    }
+
 }

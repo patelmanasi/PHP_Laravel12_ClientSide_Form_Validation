@@ -174,7 +174,6 @@
                     else if (xhr.status === 419) {
                         alert("Session expired. Please refresh page.");
                     }
-
                     else {
                         alert("Something went wrong!");
                     }
