@@ -1,5 +1,8 @@
 #  PHP_Laravel12_ClientSide_Form_Validation
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/development
 
 ## Introduction
 
@@ -433,6 +436,7 @@ After Form Submit
 ------------------------------------------------------------------------
 
 Your PHP_Laravel12_ClientSide_Form_Validation Project is Now Ready!
+<<<<<<< HEAD
 =======
 >>>>>>> main
 
@@ -868,3 +872,5 @@ After Form Submit
 ------------------------------------------------------------------------
 
 Your PHP_Laravel12_ClientSide_Form_Validation Project is Now Ready!
+=======
+>>>>>>> origin/development
